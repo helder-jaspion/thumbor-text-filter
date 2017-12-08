@@ -21,7 +21,7 @@ class Filter(BaseFilter):
         BaseFilter.PositiveNumber, #font-size
         BaseFilter.String, #font-family
     )
-    def text(self, word, x, y, color, font_size, font_family="Tahoma"):
+    def text(self, word, x, y, color, font_size, font_family="Arial"):
         image = self.engine.image
         usr_font = ImageFont.truetype(font_family, font_size)
         drawer = ImageDraw.Draw(image)
