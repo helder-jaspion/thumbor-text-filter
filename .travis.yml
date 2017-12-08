@@ -26,5 +26,5 @@ install:
     - INSTALLDIR=$(python -c "import os; import numpy; print(os.path.dirname(numpy.__file__))")
 
     # Fix distribute
-    - wget http://python-distribute.org/distribute_setup.py
+    #- wget http://python-distribute.org/distribute_setup.py
     - python distribute_setup.py
