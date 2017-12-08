@@ -17,15 +17,15 @@ tests_require = [
 ]
 
 setup(
-    name='thumbor_text_filter',
+    name='thumbor_text_alpha_filter',
     version=__version__,
-    description='Text filter for thumbor.',
+    description='Text filter with alpha for thumbor.',
     long_description='''
-Text filter for thumbor.
+Text filter with alpha for thumbor.
 ''',
     keywords='thumbor filter',
-    author='Wongnai.com',
-    author_email='tanapoln@wongnai.com',
+    author='Helder Alves',
+    author_email='helder.jaspion@gmail.com',
     url='',
     license='MIT',
     classifiers=[
